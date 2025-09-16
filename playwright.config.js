@@ -11,7 +11,6 @@ export default defineConfig({
     baseURL: 'https://saucedemo.com/',
     trace: 'on-first-retry',
   },
-
   projects: [
     {
       name: 'chromium',
