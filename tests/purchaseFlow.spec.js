@@ -4,7 +4,7 @@ const { CheckoutPage } = require('../page-objects/checkoutPage')
 const { ProductPage } = require('../page-objects/productPage')
 const { CheckoutStepTwoPage } = require('../page-objects/checkoutStepTwoPage')
 
-test.only('Select product and verify title, price and description', async ({ page }) => {
+test('Should validate complete purchase flow in an e-commerce', async ({ page }) => {
   
   const loginPage = new LoginPage(page)
   
