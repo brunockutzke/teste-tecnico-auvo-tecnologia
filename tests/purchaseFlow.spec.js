@@ -16,7 +16,7 @@ test('Should validate complete purchase flow in an e-commerce', async ({ page })
   const checkoutStepOnePage = new CheckoutStepOnePage(page)
   const checkoutStepTwoPage = new CheckoutStepTwoPage(page)
   const checkoutCompletePage = new CheckoutCompletePage(page)
-
+  
   await loginPage.goto()
   await loginPage.login('standard_user', 'secret_sauce')
   await productListPage.openFirstProductView();
