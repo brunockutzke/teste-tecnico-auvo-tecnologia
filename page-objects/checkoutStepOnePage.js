@@ -1,6 +1,6 @@
 import { Page } from "@playwright/test";
 
-class CheckoutPage {
+class CheckoutStepOnePage {
   constructor(page) {
     this.page = page;
     this.checkoutButton = page.locator("data-test=checkout")
@@ -18,4 +18,4 @@ class CheckoutPage {
   }
 }
 
-module.exports = { CheckoutPage };
+module.exports = { CheckoutStepOnePage };
