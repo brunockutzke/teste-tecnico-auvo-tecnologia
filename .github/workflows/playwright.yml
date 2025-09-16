@@ -4,7 +4,7 @@ on:
     branches: [ master ]
 jobs:
   playwright-e2e-tests:
-    name: 'Playwright UI Tests'
+    name: 'Playwright UI Tests - Sauce Demo'
     runs-on: ubuntu-latest
     container:
       image: mcr.microsoft.com/playwright:v1.55.0-noble
