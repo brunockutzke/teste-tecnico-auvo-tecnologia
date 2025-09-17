@@ -7,7 +7,7 @@
     
     3 - Já com o projeto aberto em seu editor de código, utilize o seguinte comando para baixar as dependências do projeto: npm install 
 
-    4 - Para fazer o download dos navegadores, etapa adicional que é necessária em projetos de automação com Playwright, utilize o seguinte comando: npx playwright install --with-deps
+    4 - Para fazer o download dos navegadores, etapa adicional que é necessária em projetos de automação com Playwright, utilize o seguinte comando: npx playwright install
 
 ## Você poderá executar os cenários de teste do projeto nos modos Open e Headless, utilizando os seguintes comandos:
   - Modo Open(Com interface) : Comando "npx playwright test --headed"
