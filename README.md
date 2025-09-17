@@ -3,7 +3,7 @@
 ## 📌 Introdução
 
 Este repositório contém a implementação de testes automatizados de
-front-end utilizando **JavaScript** e **Playwright** como teste técnico para vaga de Analista de Qualidade de Software(QA) Pleno.\
+front-end utilizando **JavaScript** e **Playwright** como teste técnico para vaga de Analista de Qualidade de Software(QA) Pleno.
 
 Repositório:
 [teste-tecnico-auvo-tecnologia](https://github.com/brunockutzke/teste-tecnico-auvo-tecnologia)
@@ -12,9 +12,9 @@ Repositório:
 
 ## 🛠️ Tecnologias utilizadas
 
--   [Node.js](https://nodejs.org/) -- Ambiente de execução JavaScript\
+-   [Node.js](https://nodejs.org/) -- Ambiente de execução JavaScript
 -   [Playwright](https://playwright.dev/) -- Framework de automação de
-    testes para navegadores\
+    testes para navegadores
 -   [npm](https://www.npmjs.com/) -- Gerenciador de pacotes
 
 ------------------------------------------------------------------------
@@ -44,12 +44,12 @@ A organização dos arquivos segue a seguinte estrutura:
 -   **page-objects/**: Contém o conjunto de classes necessárias para automação do projeto utilizando Page Object Model(POM)
 -   **playwright-report/**: Pasta temporária, gerada a cada execução dos testes, contendo o relatório da execução
 -   **tests/**: Contém todos os arquivos de teste automatizado escritos
-    em Playwright.\
+    em Playwright.
 -   **.gitignore/**: Arquivo contendo descrição de quais pastas e arquivos não devem subir para o repositório remoto
 -   **playwright.config.js**: Define configurações globais como
-    navegador padrão, timeout, diretórios de saída e reporter.\
+    navegador padrão, timeout, diretórios de saída e reporter.
 -   **package.json**: Lista dependências do projeto e scripts para
-    facilitar a execução dos testes.\
+    facilitar a execução dos testes.
 -   **README.md**: Documento de instruções e guia de uso do repositório.
 
 ------------------------------------------------------------------------
@@ -100,7 +100,7 @@ A organização dos arquivos segue a seguinte estrutura:
 ## 🚀 Execução no GitHub Actions
 
 Este projeto já está configurado para rodar os testes automaticamente
-via **GitHub Actions**.\
+via **GitHub Actions**.
 O workflow está definido no diretório `.github/workflows/`, garantindo
 que, a cada push ou pull request, os testes sejam executados em ambiente
 de integração contínua.
@@ -108,9 +108,9 @@ de integração contínua.
 ### Como funciona:
 
 -   Ao enviar código para o repositório, o GitHub Actions dispara o
-    fluxo de trabalho.\
+    fluxo de trabalho.
 -   As dependências são instaladas e os testes são executados em
-    máquinas virtuais hospedadas pelo GitHub.\
+    máquinas virtuais hospedadas pelo GitHub.
 -   O resultado dos testes pode ser acompanhado na aba **Actions** do
     repositório.
 
