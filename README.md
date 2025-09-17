@@ -45,7 +45,7 @@ A organização dos arquivos segue a seguinte estrutura:
 -   **playwright-report/**: Pasta temporária, gerada a cada execução dos testes, contendo o relatório da execução
 -   **tests/**: Contém todos os arquivos de teste automatizado escritos
     em Playwright.
--   **.gitignore/**: Arquivo contendo descrição de quais pastas e arquivos não devem subir para o repositório remoto
+-   **.gitignore**: Arquivo contendo descrição de quais pastas e arquivos não devem subir para o repositório remoto
 -   **playwright.config.js**: Define configurações globais como
     navegador padrão, timeout, diretórios de saída e reporter.
 -   **package.json**: Lista dependências do projeto e scripts para
