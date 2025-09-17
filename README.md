@@ -1,7 +1,7 @@
 # Teste Técnico de Automação - Auvo Tecnologia
 
 ## Siga os seguintes passos para rodar o projeto em sua máquina:
-    1 - Faça o clone do projeto para sua máquina utilizando o seguinte comando: git clone https://github.com/brunockutzke/teste-tecnico-auvo-tecnologia
+    1 - Faça o clone do projeto para sua máquina utilizando o seguinte comando: git clone https://github.com/brunockutzke/teste-tecnico-auvo-tecnologia.git
     
     2 - Para acessar a pasta do projeto, utilize o comando: cd teste-tecnico-auvo-tecnologia
     
