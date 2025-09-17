@@ -60,6 +60,7 @@ A organização dos arquivos segue a seguinte estrutura:
 
     ``` bash
     git clone https://github.com/brunockutzke/teste-tecnico-auvo-tecnologia.git
+    
     cd teste-tecnico-auvo-tecnologia
     ```
 
